@@ -57,17 +57,21 @@ I learned that sometimes it takes layering of "boxes" to achieve the desired lay
         </div>
 ```
 
-Also, with the styling, media queries help with the responsiveness. Using flex is needed, but media queries ensure responsiveness.
+Also, with the styling, used max-width to ensure responsiveness when the screen width changes. Implemented clamp() functions to change font-sizes when the screen width change
 
 ```css
-@media (max-width: 500px) {
-      .box {
-        width: 350px;
-      }
-
-      .box img {
-        width: 350px;
-      }
+.box {
+      background-color: white;
+      max-width: 375px;
+      height: 600px;
+      border-radius: 20px;
+    }
+h2 {
+      text-align: center;
+      margin: 2rem 1rem 0.5rem;
+      font-weight: 900;
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+    }
 ```
 
 ### Continued development

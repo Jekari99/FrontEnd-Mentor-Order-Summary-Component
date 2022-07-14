@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    font-family: 'Red Hat Display';
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    max-width: 375px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 1rem 0.5rem;
+    font-weight: 900;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+p {
+    text-align: center;
+    margin: 0 2rem 0;
+    font-weight: 500;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
+
+}
+
+.order {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 275px;
+    height: 80px;
+    display: flex;
+    margin: 2rem 3rem;
+    border-radius: 5px;
+}
+
+.order img {
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+}
+
+.order a {
+    margin: 2rem 0 2rem 2rem;
+    text-align: center;
+    color: hsl(245, 75%, 52%);
+    font-size: clamp(0.8rem, 1.1vw, 1.1rem);
+
+}
+
+.pricing {
+    margin: 1rem 0 1rem;
+}
+
+.pricing h4 {
+    margin: 0;
+    font-size: clamp(0.8rem, 1.1vw, 1.1rem);
+
+}
+
+.pricing p {
+    margin: 0;
+    font-size: clamp(0.8rem, 1.1vw, 1.1rem);
+
+}
+
+.payment {
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.payment:hover {
+    box-shadow: 0px 20px 20px 0px hsl(225, 100%, 94%);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+}
