@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Jekari99/FrontEnd-Mentor-Order-Summary-Component)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-component-EbZt1iSJqr)
 - Live Site URL: (https://frontendmentor-ordersummarycomponent-solution.netlify.app/)
 
 ## My process
